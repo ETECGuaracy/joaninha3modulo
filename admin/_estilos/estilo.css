@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Century Gothic;
+}
+body{
+	margin:0; !important
+}
+a:link, a:visited, a:active{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+	text-decoration:underline;
+}
+a.linkmenusup:link, a.linkmenusup:visited, a.linkmenusup:active {
+	color: #4188b4;
+	text-decoration: none;
+}
+a.linkmenusup:hover {
+	color: #4188b4;
+	text-decoration:underline;
+}
+div#main{
+}
+div#fundoCaixaMsg{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	display:none;
+	z-index: 99998;
+}
+div#caixaMsg{
+	position:fixed;
+	padding:10px;
+	background-color:#CCC;
+	width:400px;
+	height:200px;
+	left:50%;
+	top:50%;
+	margin-top:-100px;
+	margin-left:-200px;
+	border: solid 1px black;
+	display:none;
+	z-index: 99998;
+}
+div#caixaMsgConteudo{
+	color:#F00;
+	height:145px;
+	text-align:center;
+	overflow:auto;
+}
+div#btnCaixaMsgFecharTop{
+	cursor:pointer;
+	text-align:right;
+}
+div#btnCaixaMsgFechar{
+	cursor:pointer;
+	background-color:#FFF;
+	text-align:center;
+	margin-top:10px;
+}
+div#header{
+	width:1024px;
+	margin:auto;
+}
+div#logotipo{
+	float:left;
+	height:60px;
+	width:250px;
+	margin-top:10px;
+}
+div#menusup{
+	float:right;
+	height:30px;
+	width:715px;
+	margin-top:40px;
+	text-align:center;
+	color:#F00;
+	font-weight:bold;
+}
+div#data{
+	font-size:12px;
+	text-align:right;
+	clear:both;
+}
+div#barraazul{
+	background-color:#46c7ff;
+	height:25px;
+	margin-bottom:1px;
+	min-width:1030px;
+}
+div#menubordavazio{
+	height:15px;
+}
+div#menubordasuperior{
+	width:1024px;
+	margin:auto;
+	height:10px;
+	background-color:#FFF;
+}
+div#content{
+	background-image:url(../../_img/background.gif);
+	background-repeat:repeat;
+	min-width:1030px;
+}
+div#menu{
+	margin:auto;
+	width:1024px;
+	background-color:#FFF;
+	text-align:center;
+}
+div#menubordainferiorfundo{
+	background-color:#98c2d2;
+}
+div#menubordainferior{
+	height:10px;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+div#conteudofundo{
+	margin:auto;
+	width:1024px;
+	background-color:#98c2d2;
+}
+div#conteudobordas{
+	margin:auto;
+	width:1024px;
+	background-color:#FFF;
+}
+div#conteudo{
+	padding:10px;
+	text-align:justify;
+	font-size:14px;
+}
+div#conteudobordavazio{
+	height:10px;
+}
+div#footer{
+	background-color:#46c7ff;
+	height:22px;
+	text-align:center;
+	margin-top:1px;
+	min-width:1030px;
+	color:#FFF;
+	font-size:14px;
+	padding-top:3px;
+}
+th.header{ /*estilos da tabela contato - tablesorter*/
+	background-image: url(../../_img/seta_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+th.headerSortUp{
+	background-image: url(../../_img/seta_asc.gif);
+}
+th.headerSortDown{
+	background-image: url(../../_img/seta_desc.gif);
+}
+.titulo{
+	color:#ff571d;
+	font-weight:bold;
+}
+.cursorPointer{
+	cursor:pointer;
+}
+.msgErro{
+	color:#F00;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+}
+.tituloTblDireita{
+	text-align:right;
+	font-weight:bold;
+	vertical-align:top;
+}
+.paddingTbl td{
+	padding-left:5px;
+	padding-right:5px;
+}
+.contatoLido{
+	cursor:pointer;
+}
+.contatoNaoLido{
+	cursor:pointer;
+	font-weight:bold;
+}
+table#tblInserirCadastro{
+	display:none;
+}

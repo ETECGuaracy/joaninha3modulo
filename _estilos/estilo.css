@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Century Gothic;
+}
+body{
+	margin:0; !important
+}
+a:link, a:visited, a:active{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+	text-decoration:underline;
+}
+a.linkmenusup:link, a.linkmenusup:visited, a.linkmenusup:active {
+	color: #4188b4;
+	text-decoration: none;
+}
+a.linkmenusup:hover {
+	color: #4188b4;
+	text-decoration:underline;
+}
+div#main{
+}
+div#fundoCaixaMsg{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	display:none;
+	z-index: 99998;
+}
+div#caixaMsg{
+	position:fixed;
+	padding:10px;
+	background-color:#CCC;
+	width:400px;
+	height:200px;
+	left:50%;
+	top:50%;
+	margin-top:-100px;
+	margin-left:-200px;
+	border: solid 1px black;
+	display:none;
+	z-index: 99998;
+}
+div#caixaMsgConteudo{
+	color:#F00;
+	height:145px;
+	text-align:center;
+}
+div#btnCaixaMsgFecharTop{
+	cursor:pointer;
+	text-align:right;
+}
+div#btnCaixaMsgFechar{
+	cursor:pointer;
+	background-color:#FFF;
+	text-align:center;
+	margin-top:10px;
+}
+div#header{
+	width:1024px;
+	margin:auto;
+}
+div#logotipo{
+	float:left;
+	height:60px;
+	width:250px;
+	margin-top:10px;
+}
+div#menusup{
+	color:#4188b4;
+	float:right;
+	height:70px;
+	width:715px;
+	background-image:url(../_img/menusuperior.jpg);
+	background-repeat:no-repeat;
+}
+div#contato{
+	float:right;
+	margin-right:25px;
+	margin-top:27px;
+	font-size:14px;
+}
+div#localizacao{
+	float:right;
+	margin-right:45px;
+	margin-top:27px;
+	font-size:14px;
+}
+div#arealogin{
+	color:#FFF;
+	font-size:14px;
+	height:25px;
+	width:440px;
+	margin-left:30px;
+	margin-top:8px;
+}
+div#areamenulogin{
+	color:#FFF;
+	font-size:12px;
+	height:25px;
+	width:440px;
+	margin-left:10px;
+	margin-top:5px;
+}
+div#linkMenu{
+	float:left;
+	font-size:12px;
+}
+div#linkSair{
+	text-align:right;
+	float:right;
+	font-size:14px;
+}
+input#txtUsuario{
+	margin-left:15px;
+	margin-right:15px;
+}
+input#txtSenha{
+	margin-left:15px;
+	margin-right:35px;
+}
+div#areaagendaonline{
+	font-size:12px;
+	height:20px;
+	width:460px;
+	margin-left:10px;
+	margin-top:11px;
+}
+label#agendaonline{
+	text-align:left;
+}
+label#esqueceusenha{
+	text-align:right;
+	float:right;
+	font-family:Tahoma;
+	font-size:11px;
+}
+label#meusdados{
+	text-align:right;
+	float:right;
+}
+div#data{
+	color:#4188b4;
+	font-size:12px;
+	text-align:right;
+	clear:both;
+}
+div#barraazul{
+	background-color:#46c7ff;
+	height:25px;
+	margin-bottom:1px;
+	min-width:1030px;
+}
+div#bannerbordavazio{
+	height:15px;
+}
+div#bannerbordasuperior{
+	width:1024px;
+	margin:auto;
+	height:10px;
+	background-color:#FFF;
+}
+div#content{
+	background-image:url(../_img/background.gif);
+	background-repeat:repeat;
+	min-width:1030px;
+}
+div#banner{
+	margin:auto;
+	width:1024px;
+}
+div#bannerflash{
+	height:209px;
+	background-color:#FFF;
+}
+div#bannerbordainferiorfundo{
+	background-color:#98c2d2;
+}
+div#bannerbordainferior{
+	height:10px;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+div#conteudofundo{
+	margin:auto;
+	width:1024px;
+	background-color:#98c2d2;
+}
+div#conteudobordas{
+	margin:auto;
+	width:1024px;
+	background-color:#FFF;
+}
+div#conteudo{
+	padding:10px;
+	text-align:justify;
+	font-size:14px;
+}
+div#conteudobordavazio{
+	height:10px;
+}
+div#footer{
+	background-color:#46c7ff;
+	height:22px;
+	text-align:center;
+	margin-top:1px;
+	min-width:1030px;
+	color:#FFF;
+	font-size:14px;
+	padding-top:3px;
+}
+th.header{ /*estilos da tabela contato - tablesorter*/
+	background-image: url(../_img/seta_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+th.headerSortUp{
+	background-image: url(../_img/seta_asc.gif);
+}
+th.headerSortDown{
+	background-image: url(../_img/seta_desc.gif);
+}
+.titulo{
+	color:#f78c18;
+	font-weight:bold;
+	font-size:16px;
+}
+.cursorPointer{
+	cursor:pointer;
+}
+.msgErro{
+	color:#F00;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+}
+.tituloTblDireita{
+	text-align:right;
+	font-weight:bold;
+	vertical-align:top;
+}
+.tituloTblAgenda{
+	text-align:right;
+	font-weight:bold;
+}
+.paddingTbl td{
+	padding-left:5px;
+	padding-right:5px;
+}
